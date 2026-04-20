@@ -1,0 +1,13 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vision_interfaces/msg/TargetArray.msg
+// generated code does not contain a copyright notice
+
+#include "vision_interfaces/msg/Target.idl"
+
+module vision_interfaces {
+  module msg {
+    struct TargetArray {
+      sequence<vision_interfaces::msg::Target> targets;
+    };
+  };
+};

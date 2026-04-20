@@ -1,0 +1,90 @@
+[0.031s] Invoking command in '/home/cjh/droncon_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake /home/cjh/droncon_ws/src/core -DCMAKE_INSTALL_PREFIX=/home/cjh/droncon_ws/install/core
+[0.220s] -- The C compiler identification is GNU 11.4.0
+[0.341s] -- The CXX compiler identification is GNU 11.4.0
+[0.360s] -- Detecting C compiler ABI info
+[0.463s] -- Detecting C compiler ABI info - done
+[0.470s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.470s] -- Detecting C compile features
+[0.471s] -- Detecting C compile features - done
+[0.475s] -- Detecting CXX compiler ABI info
+[0.591s] -- Detecting CXX compiler ABI info - done
+[0.599s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.599s] -- Detecting CXX compile features
+[0.599s] -- Detecting CXX compile features - done
+[0.614s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.782s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.965s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.065s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.074s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.093s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.119s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.142s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.251s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.261s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.437s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.472s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.518s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.542s] -- Looking for pthread.h
+[1.665s] -- Looking for pthread.h - found
+[1.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.762s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.763s] -- Found Threads: TRUE  
+[1.864s] -- Found mavros_msgs: 2.14.0 (/opt/ros/humble/share/mavros_msgs/cmake)
+[2.020s] -- Found nav_msgs: 4.9.1 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.052s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.167s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.167s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/cjh/droncon_ws/src/core/src>
+[2.167s] -- Configured cppcheck exclude dirs and/or files: 
+[2.169s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.171s] -- Added test 'lint_cmake' to check CMake code style
+[2.173s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.175s] -- Added test 'uncrustify' to check C / C++ code style
+[2.175s] -- Configured uncrustify additional arguments: 
+[2.178s] -- Added test 'xmllint' to check XML markup files
+[2.181s] -- Configuring done
+[2.198s] -- Generating done
+[2.204s] -- Build files have been written to: /home/cjh/droncon_ws/build/core
+[2.217s] Invoked command in '/home/cjh/droncon_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake /home/cjh/droncon_ws/src/core -DCMAKE_INSTALL_PREFIX=/home/cjh/droncon_ws/install/core
+[2.219s] Invoking command in '/home/cjh/droncon_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --build /home/cjh/droncon_ws/build/core -- -j16 -l16
+[2.301s] [ 28%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/layer3_mission/mission_executor.cpp.o[0m
+[2.301s] [ 28%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/layer2_control/flight_controller.cpp.o[0m
+[2.301s] [ 42%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/layer1_hal/drone_hal.cpp.o[0m
+[2.301s] [ 71%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/main.cpp.o[0m
+[2.301s] [ 71%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/layer2_control/pid_controller.cpp.o[0m
+[2.302s] [ 85%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/layer4_system/drone_system.cpp.o[0m
+[2.945s] [01m[K/home/cjh/droncon_ws/src/core/src/layer2_control/flight_controller.cpp:21:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma region movement_methods[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[2.945s]    21 | # pragma region movement_methods
+[2.945s]       | 
+[2.945s] [01m[K/home/cjh/droncon_ws/src/core/src/layer2_control/flight_controller.cpp:133:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma endregion [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+[2.945s]   133 | # pragma endregion
+[2.945s]       | 
+[8.522s] [01m[K/home/cjh/droncon_ws/src/core/src/layer3_mission/mission_executor.cpp:[m[K In member function ‘[01m[Kvoid MissionExecutor::on_forward()[m[K’:
+[8.522s] [01m[K/home/cjh/droncon_ws/src/core/src/layer3_mission/mission_executor.cpp:102:22:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[K((MissionExecutor*)this)->MissionExecutor::current_state_[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+[8.522s]   102 |     [01;35m[Kcurrent_state_   = current_state_ = State::LAND[m[K;
+[8.522s]       |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[21.444s] [100%] [32m[1mLinking CXX executable drone_node[0m
+[22.222s] [100%] Built target drone_node
+[22.237s] Invoked command in '/home/cjh/droncon_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --build /home/cjh/droncon_ws/build/core -- -j16 -l16
+[22.239s] Invoking command in '/home/cjh/droncon_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --install /home/cjh/droncon_ws/build/core
+[22.247s] -- Install configuration: ""
+[22.248s] -- Installing: /home/cjh/droncon_ws/install/core/lib/core/drone_node
+[22.257s] -- Set runtime path of "/home/cjh/droncon_ws/install/core/lib/core/drone_node" to ""
+[22.257s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/
+[22.257s] -- Installing: /home/cjh/droncon_ws/install/core/share/core//gazebo_launch.py
+[22.257s] -- Installing: /home/cjh/droncon_ws/install/core/share/core//core_launch.py
+[22.258s] -- Installing: /home/cjh/droncon_ws/install/core/share/ament_index/resource_index/package_run_dependencies/core
+[22.258s] -- Installing: /home/cjh/droncon_ws/install/core/share/ament_index/resource_index/parent_prefix_path/core
+[22.258s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/environment/ament_prefix_path.sh
+[22.258s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/environment/ament_prefix_path.dsv
+[22.259s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/environment/path.sh
+[22.259s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/environment/path.dsv
+[22.259s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/local_setup.bash
+[22.259s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/local_setup.sh
+[22.260s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/local_setup.zsh
+[22.260s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/local_setup.dsv
+[22.260s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/package.dsv
+[22.260s] -- Installing: /home/cjh/droncon_ws/install/core/share/ament_index/resource_index/packages/core
+[22.261s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/cmake/coreConfig.cmake
+[22.261s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/cmake/coreConfig-version.cmake
+[22.261s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/package.xml
+[22.263s] Invoked command in '/home/cjh/droncon_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --install /home/cjh/droncon_ws/build/core

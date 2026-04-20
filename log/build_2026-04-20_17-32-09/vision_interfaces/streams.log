@@ -1,0 +1,205 @@
+[0.048s] Invoking command in '/home/cjh/droncon_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --build /home/cjh/droncon_ws/build/vision_interfaces -- -j16 -l16
+[0.166s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_generator_c[0m
+[0.191s] [  2%] Built target vision_interfaces__rs
+[0.191s] [  4%] Built target vision_interfaces__cpp
+[0.206s] [ 14%] Built target vision_interfaces__rosidl_generator_c
+[0.232s] [ 14%] Built target ament_cmake_python_copy_vision_interfaces
+[0.232s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_typesupport_cpp[0m
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_typesupport_introspection_cpp[0m
+[0.235s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[0.244s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_typesupport_introspection_c[0m
+[0.247s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_typesupport_fastrtps_c[0m
+[0.247s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_typesupport_c[0m
+[0.274s] [ 37%] Built target vision_interfaces__rosidl_typesupport_cpp
+[0.274s] [ 39%] Built target vision_interfaces__rosidl_typesupport_introspection_cpp
+[0.274s] [ 45%] Built target vision_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.279s] [ 56%] Built target vision_interfaces__rosidl_typesupport_introspection_c
+[0.282s] [ 66%] Built target vision_interfaces__rosidl_typesupport_c
+[0.287s] [ 77%] Built target vision_interfaces__rosidl_typesupport_fastrtps_c
+[0.348s] [ 77%] Built target vision_interfaces
+[0.412s] [ 79%] Built target vision_interfaces__py
+[0.448s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_generator_py[0m
+[0.494s] [ 87%] Built target vision_interfaces__rosidl_generator_py
+[0.525s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.525s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[0.525s] [35m[1mConsolidate compiler generated dependencies of target vision_interfaces__rosidl_typesupport_c__pyext[0m
+[0.556s] [ 91%] Built target vision_interfaces__rosidl_typesupport_c__pyext
+[0.558s] [ 95%] Built target vision_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.566s] [100%] Built target vision_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.724s] running egg_info
+[0.727s] writing vision_interfaces.egg-info/PKG-INFO
+[0.728s] writing dependency_links to vision_interfaces.egg-info/dependency_links.txt
+[0.728s] writing top-level names to vision_interfaces.egg-info/top_level.txt
+[0.735s] reading manifest file 'vision_interfaces.egg-info/SOURCES.txt'
+[0.736s] writing manifest file 'vision_interfaces.egg-info/SOURCES.txt'
+[0.795s] [100%] Built target ament_cmake_python_build_vision_interfaces_egg
+[0.836s] Invoked command in '/home/cjh/droncon_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --build /home/cjh/droncon_ws/build/vision_interfaces -- -j16 -l16
+[0.842s] Invoking command in '/home/cjh/droncon_ws/build/vision_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --install /home/cjh/droncon_ws/build/vision_interfaces
+[0.861s] -- Install configuration: ""
+[0.862s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/ament_index/resource_index/rosidl_interfaces/vision_interfaces
+[0.863s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[0.863s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[0.863s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/target_array.h
+[0.863s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/vision.h
+[0.863s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.864s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/target.h
+[0.864s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[0.864s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__functions.c
+[0.864s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__functions.h
+[0.865s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__struct.h
+[0.865s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__functions.c
+[0.865s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__type_support.h
+[0.866s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__functions.c
+[0.866s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__struct.h
+[0.866s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__functions.h
+[0.866s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__type_support.h
+[0.866s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__struct.h
+[0.866s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__functions.h
+[0.867s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__type_support.h
+[0.867s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/environment/library_path.sh
+[0.867s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/environment/library_path.dsv
+[0.867s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_generator_c.so
+[0.867s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[0.867s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[0.868s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[0.868s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__rosidl_typesupport_fastrtps_c.h
+[0.868s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__rosidl_typesupport_fastrtps_c.h
+[0.868s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_c.h
+[0.868s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.869s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.869s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[0.869s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[0.870s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[0.870s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__type_support.c
+[0.870s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__rosidl_typesupport_introspection_c.h
+[0.870s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__type_support.c
+[0.871s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__type_support.c
+[0.871s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__rosidl_typesupport_introspection_c.h
+[0.871s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__rosidl_typesupport_introspection_c.h
+[0.871s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.871s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_introspection_c.so
+[0.872s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_c.so
+[0.872s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[0.872s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[0.873s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.873s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/target.hpp
+[0.873s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/vision.hpp
+[0.873s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[0.873s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__type_support.hpp
+[0.874s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__builder.hpp
+[0.874s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__struct.hpp
+[0.874s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__traits.hpp
+[0.874s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__traits.hpp
+[0.874s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__traits.hpp
+[0.874s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__struct.hpp
+[0.874s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__type_support.hpp
+[0.874s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__type_support.hpp
+[0.874s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__builder.hpp
+[0.875s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__builder.hpp
+[0.875s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__struct.hpp
+[0.875s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/target_array.hpp
+[0.875s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[0.875s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[0.876s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.876s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[0.876s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/dds_fastrtps
+[0.876s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__rosidl_typesupport_fastrtps_cpp.hpp
+[0.876s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__rosidl_typesupport_fastrtps_cpp.hpp
+[0.876s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__rosidl_typesupport_fastrtps_cpp.hpp
+[0.877s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.877s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces
+[0.877s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg
+[0.877s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail
+[0.877s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__rosidl_typesupport_introspection_cpp.hpp
+[0.877s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__type_support.cpp
+[0.878s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__rosidl_typesupport_introspection_cpp.hpp
+[0.878s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/vision__type_support.cpp
+[0.878s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target__rosidl_typesupport_introspection_cpp.hpp
+[0.878s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/include/vision_interfaces/vision_interfaces/msg/detail/target_array__type_support.cpp
+[0.878s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.878s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_typesupport_cpp.so
+[0.879s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/environment/pythonpath.sh
+[0.879s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/environment/pythonpath.dsv
+[0.879s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info
+[0.880s] -- Installing: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[0.880s] -- Installing: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[0.880s] -- Installing: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[0.880s] -- Installing: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[0.880s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces
+[0.880s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.881s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg
+[0.881s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_target.py
+[0.881s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_target_array_s.c
+[0.881s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_vision_s.c
+[0.881s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_vision.py
+[0.882s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_target_array.py
+[0.882s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/_target_s.c
+[0.882s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg/__init__.py
+[0.882s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.883s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_c.c
+[0.883s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[0.883s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.883s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/__init__.py
+[0.883s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/libvision_interfaces__rosidl_generator_py.so
+[0.884s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/_vision_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[0.949s] Listing '/home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces'...
+[0.949s] Listing '/home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/msg'...
+[0.954s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[0.956s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[0.957s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/local/lib/python3.10/dist-packages/vision_interfaces/vision_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[0.958s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/lib/libvision_interfaces__rosidl_generator_py.so
+[0.959s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/ament_index/resource_index/rust_packages/vision_interfaces
+[0.959s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/rust
+[0.959s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/rust/build.rs
+[0.959s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/rust/src
+[0.960s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/rust/src/msg
+[0.960s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/rust/src/msg/rmw.rs
+[0.960s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/rust/src/lib.rs
+[0.960s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/rust/src/msg.rs
+[0.961s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/rust/Cargo.toml
+[0.961s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/msg/Target.idl
+[0.961s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/msg/TargetArray.idl
+[0.961s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/msg/Vision.idl
+[0.961s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/msg/Target.msg
+[0.961s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/msg/TargetArray.msg
+[0.962s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/msg/Vision.msg
+[0.962s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/ament_index/resource_index/package_run_dependencies/vision_interfaces
+[0.962s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/ament_index/resource_index/parent_prefix_path/vision_interfaces
+[0.963s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/environment/ament_prefix_path.sh
+[0.963s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/environment/ament_prefix_path.dsv
+[0.963s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/environment/path.sh
+[0.964s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/environment/path.dsv
+[0.964s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/local_setup.bash
+[0.964s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/local_setup.sh
+[0.965s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/local_setup.zsh
+[0.965s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/local_setup.dsv
+[0.965s] -- Installing: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/package.dsv
+[0.965s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/ament_index/resource_index/packages/vision_interfaces
+[0.966s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_cExport.cmake
+[0.966s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.966s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[0.966s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[0.966s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.966s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.967s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cExport.cmake
+[0.967s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.967s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_cppExport.cmake
+[0.967s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[0.967s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[0.968s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.968s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.968s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cppExport.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_pyExport.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/export_vision_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfacesConfig.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/cmake/vision_interfacesConfig-version.cmake
+[0.969s] -- Up-to-date: /home/cjh/droncon_ws/install/vision_interfaces/share/vision_interfaces/package.xml
+[0.974s] Invoked command in '/home/cjh/droncon_ws/build/vision_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --install /home/cjh/droncon_ws/build/vision_interfaces

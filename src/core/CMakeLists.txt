@@ -1,0 +1,75 @@
+cmake_minimum_required(VERSION 3.8)
+project(core)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+
+# find dependencies
+find_package(ament_cmake REQUIRED)
+find_package(rclcpp REQUIRED)
+find_package(std_msgs REQUIRED)
+find_package(mavros_msgs REQUIRED)
+find_package(geometry_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
+
+# ── 源文件 ────────────────────────────────────────────────────
+set(SOURCES
+  src/layer1_hal/drone_hal.cpp
+  src/layer2_control/pid_controller.cpp
+  src/layer2_control/flight_controller.cpp
+  src/layer3_mission/mission_executor.cpp
+  src/layer4_system/drone_system.cpp
+  src/main.cpp
+)
+
+# ── 可执行文件 ────────────────────────────────────────────────
+add_executable(drone_node ${SOURCES})
+
+# 头文件搜索路径：以 src/ 为根，使 #include "layer1_hal/..." 等路径有效
+target_include_directories(drone_node PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/src>
+  $<INSTALL_INTERFACE:include>
+)
+# ── 依赖链接 ──────────────────────────────────────────────────
+ament_target_dependencies(drone_node
+  rclcpp
+  geometry_msgs
+  nav_msgs
+  std_msgs
+  mavros_msgs
+)
+
+set(CMAKE_INSTALL_RPATH /usr/local/lib)
+
+# ── 安装 ──────────────────────────────────────────────────────
+install(TARGETS drone_node DESTINATION lib/${PROJECT_NAME})
+install(DIRECTORY launch/ DESTINATION share/${PROJECT_NAME}/)
+
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # comment the line when a copyright and license is added to all source files
+  set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # comment the line when this package is in a git repo and when
+  # a copyright and license is added to all source files
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
+
+ament_package()
+
+cmake_minimum_required(VERSION 3.8)
+project(core_2026)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+set(CMAKE_CXX_EXTENSIONS OFF)
+
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
+

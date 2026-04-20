@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from vision_interfaces/msg/Vision.msg
+// generated code does not contain a copyright notice
+
+
+module vision_interfaces {
+  module msg {
+    @verbatim (language="comment", text=
+      "x,y,坐标")
+    struct Vision {
+      float x;
+
+      float y;
+
+      @verbatim (language="comment", text=
+        "图像序号")
+      float number;
+
+      @verbatim (language="comment", text=
+        "图像深度")
+      string color;
+
+      string shape;
+    };
+  };
+};

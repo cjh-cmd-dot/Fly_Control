@@ -1,0 +1,10 @@
+# x,y,z坐标
+float32 x
+float32 y
+float32 z
+# 图像序号
+float32 number 
+# 图像深度
+float32 depth
+string color
+string shape

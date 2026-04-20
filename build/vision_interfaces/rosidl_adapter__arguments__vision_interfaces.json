@@ -1,0 +1,8 @@
+{
+  "package_name": "vision_interfaces",
+  "non_idl_tuples": [
+    "/home/cjh/droncon_ws/src/vision_interfaces:msg/Target.msg",
+    "/home/cjh/droncon_ws/src/vision_interfaces:msg/TargetArray.msg",
+    "/home/cjh/droncon_ws/src/vision_interfaces:msg/Vision.msg"
+  ]
+}

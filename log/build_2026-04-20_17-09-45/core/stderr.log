@@ -1,0 +1,10 @@
+[01m[K/home/cjh/droncon_ws/src/core/src/layer2_control/flight_controller.cpp:21:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma region movement_methods[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+   21 | # pragma region movement_methods
+      | 
+[01m[K/home/cjh/droncon_ws/src/core/src/layer2_control/flight_controller.cpp:133:[m[K [01;35m[Kwarning: [m[Kignoring ‘[01m[K#pragma endregion [m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunknown-pragmas-Wunknown-pragmas]8;;[m[K]
+  133 | # pragma endregion
+      | 
+[01m[K/home/cjh/droncon_ws/src/core/src/layer3_mission/mission_executor.cpp:[m[K In member function ‘[01m[Kvoid MissionExecutor::on_forward()[m[K’:
+[01m[K/home/cjh/droncon_ws/src/core/src/layer3_mission/mission_executor.cpp:102:22:[m[K [01;35m[Kwarning: [m[Koperation on ‘[01m[K((MissionExecutor*)this)->MissionExecutor::current_state_[m[K’ may be undefined [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsequence-point-Wsequence-point]8;;[m[K]
+  102 |     [01;35m[Kcurrent_state_   = current_state_ = State::LAND[m[K;
+      |     [01;35m[K~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K

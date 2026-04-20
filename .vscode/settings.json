@@ -1,0 +1,8 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/cjh/nav2_ros2/install/robot_application/lib/python3.10/site-packages",
+        "//home/cjh/nav2_ros2/install/robot_application/lib/python3.10/site-packages",
+        "/opt/ros/humble/lib/python3.10/site-packages",
+        "/opt/ros/humble/local/lib/python3.10/dist-packages"
+    ]
+}

@@ -1,0 +1,4 @@
+[console_scripts]
+vision_camera = vision_pkg.vision_camera:main
+vision_d435 = vision_pkg.vision_d435:main
+
