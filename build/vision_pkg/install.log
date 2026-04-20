@@ -10,7 +10,7 @@
 /home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg/__pycache__/vision_d435.cpython-310.pyc
 /home/cjh/droncon_ws/install/vision_pkg/share/ament_index/resource_index/packages/vision_pkg
 /home/cjh/droncon_ws/install/vision_pkg/share/vision_pkg/package.xml
-/home/cjh/droncon_ws/install/vision_pkg/share/vision_pkg/launch
+/home/cjh/droncon_ws/install/vision_pkg/share/vision_pkg/launch/vision_combined.launch.py
 /home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg-0.0.0-py3.10.egg-info/SOURCES.txt
 /home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg-0.0.0-py3.10.egg-info/dependency_links.txt
 /home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg-0.0.0-py3.10.egg-info/requires.txt

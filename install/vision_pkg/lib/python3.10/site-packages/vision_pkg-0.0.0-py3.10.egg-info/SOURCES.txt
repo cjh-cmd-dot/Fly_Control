@@ -9,6 +9,7 @@ setup.py
 ../../build/vision_pkg/vision_pkg.egg-info/requires.txt
 ../../build/vision_pkg/vision_pkg.egg-info/top_level.txt
 ../../build/vision_pkg/vision_pkg.egg-info/zip-safe
+launch/vision_combined.launch.py
 resource/vision_pkg
 test/test_copyright.py
 test/test_flake8.py
