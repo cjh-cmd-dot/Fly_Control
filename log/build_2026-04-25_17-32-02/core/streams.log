@@ -1,0 +1,25 @@
+[0.120s] Invoking command in '/home/cjh/droncon_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --build /home/cjh/droncon_ws/build/core -- -j16 -l16
+[0.784s] [100%] Built target drone_node
+[0.969s] Invoked command in '/home/cjh/droncon_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --build /home/cjh/droncon_ws/build/core -- -j16 -l16
+[1.007s] Invoking command in '/home/cjh/droncon_ws/build/core': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --install /home/cjh/droncon_ws/build/core
+[1.031s] -- Install configuration: ""
+[1.036s] -- Up-to-date: /home/cjh/droncon_ws/install/core/lib/core/drone_node
+[1.037s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/
+[1.037s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core//gazebo_launch.py
+[1.038s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core//core_launch.py
+[1.038s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/ament_index/resource_index/package_run_dependencies/core
+[1.038s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/ament_index/resource_index/parent_prefix_path/core
+[1.039s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/environment/ament_prefix_path.sh
+[1.039s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/environment/ament_prefix_path.dsv
+[1.039s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/environment/path.sh
+[1.039s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/environment/path.dsv
+[1.039s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/local_setup.bash
+[1.039s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/local_setup.sh
+[1.040s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/local_setup.zsh
+[1.040s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/local_setup.dsv
+[1.040s] -- Installing: /home/cjh/droncon_ws/install/core/share/core/package.dsv
+[1.040s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/ament_index/resource_index/packages/core
+[1.040s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/cmake/coreConfig.cmake
+[1.040s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/cmake/coreConfig-version.cmake
+[1.040s] -- Up-to-date: /home/cjh/droncon_ws/install/core/share/core/package.xml
+[1.046s] Invoked command in '/home/cjh/droncon_ws/build/core' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cjh/droncon_ws/install/vision_pkg:/home/cjh/realsense_ws/install/realsense2_ros_mqtt_bridge:/home/cjh/nav2_ros2/install/robot_application://home/cjh/nav2_ros2/install/robot_application:/opt/ros/humble /usr/bin/cmake --install /home/cjh/droncon_ws/build/core

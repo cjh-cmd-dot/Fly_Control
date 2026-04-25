@@ -138,15 +138,19 @@ class Vision:
         return edges
 
     @staticmethod
-    def _is_irregular_polygon_by_edge(approx, min_edge_length=10.0, edge_diff_threshold=10.0):
+    def _is_irregular_polygon_by_edge(approx, min_edge_length=10.0, edge_ratio_threshold=2):
         edges = Vision._polygon_edge_lengths(approx)
         if len(edges) < 3:
             return False
         filtered = [e for e in edges if e > min_edge_length]
         if len(filtered) < 2:
             return False
-        return max(filtered) - min(filtered) > edge_diff_threshold
-
+            
+        # 使用比例：如果最长边是最短边的 1.5 倍以上，才认为是不规则的
+        min_e = min(filtered)
+        if min_e == 0: 
+            return True
+        return (max(filtered) / min_e) > edge_ratio_threshold
     @staticmethod
     def _classify_polygon(cnt, approx):
         num_vertices = len(approx)
