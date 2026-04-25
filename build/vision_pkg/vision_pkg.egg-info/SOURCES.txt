@@ -16,6 +16,7 @@ test/test_flake8.py
 test/test_pep257.py
 vision_pkg/__init__.py
 vision_pkg/cv_tools.py
+vision_pkg/ground_plane_mapper_d435.py
 vision_pkg/vision_base.py
 vision_pkg/vision_camera.py
 vision_pkg/vision_d435.py
