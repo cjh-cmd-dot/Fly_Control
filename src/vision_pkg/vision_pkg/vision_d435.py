@@ -6,7 +6,7 @@ from vision_interfaces.msg import Target, TargetArray
 
 from vision_pkg.cv_tools import CvTools
 from vision_pkg.vision_base import Vision
-from vision_pkg.ground_plane_mapper import GroundPlaneMapper
+from vision_pkg.ground_plane_mapper_d435 import GroundPlaneMapper
 
 import pyrealsense2 as rs
 import numpy as np
