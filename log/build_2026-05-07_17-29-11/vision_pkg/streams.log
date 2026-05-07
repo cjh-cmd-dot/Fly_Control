@@ -1,0 +1,25 @@
+[1.491s] Invoking command in '/home/cjh/droncon_ws/src/vision_pkg': PYTHONPATH=/home/cjh/droncon_ws/build/vision_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_pkg build --build-base /home/cjh/droncon_ws/build/vision_pkg/build install --record /home/cjh/droncon_ws/build/vision_pkg/install.log --single-version-externally-managed install_data
+[2.047s] running egg_info
+[2.049s] writing ../../build/vision_pkg/vision_pkg.egg-info/PKG-INFO
+[2.050s] writing dependency_links to ../../build/vision_pkg/vision_pkg.egg-info/dependency_links.txt
+[2.050s] writing entry points to ../../build/vision_pkg/vision_pkg.egg-info/entry_points.txt
+[2.051s] writing requirements to ../../build/vision_pkg/vision_pkg.egg-info/requires.txt
+[2.052s] writing top-level names to ../../build/vision_pkg/vision_pkg.egg-info/top_level.txt
+[2.054s] reading manifest file '../../build/vision_pkg/vision_pkg.egg-info/SOURCES.txt'
+[2.057s] writing manifest file '../../build/vision_pkg/vision_pkg.egg-info/SOURCES.txt'
+[2.058s] running build
+[2.058s] running build_py
+[2.060s] copying vision_pkg/vision_d435.py -> /home/cjh/droncon_ws/build/vision_pkg/build/lib/vision_pkg
+[2.061s] running install
+[2.061s] running install_lib
+[2.064s] copying /home/cjh/droncon_ws/build/vision_pkg/build/lib/vision_pkg/vision_d435.py -> /home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg
+[2.066s] byte-compiling /home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg/vision_d435.py to vision_d435.cpython-310.pyc
+[2.069s] running install_data
+[2.070s] running install_egg_info
+[2.073s] removing '/home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[2.074s] Copying ../../build/vision_pkg/vision_pkg.egg-info to /home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages/vision_pkg-0.0.0-py3.10.egg-info
+[2.077s] running install_scripts
+[2.121s] Installing vision_camera script to /home/cjh/droncon_ws/install/vision_pkg/lib/vision_pkg
+[2.122s] Installing vision_d435 script to /home/cjh/droncon_ws/install/vision_pkg/lib/vision_pkg
+[2.123s] writing list of installed files to '/home/cjh/droncon_ws/build/vision_pkg/install.log'
+[2.171s] Invoked command in '/home/cjh/droncon_ws/src/vision_pkg' returned '0': PYTHONPATH=/home/cjh/droncon_ws/build/vision_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/cjh/droncon_ws/install/vision_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vision_pkg build --build-base /home/cjh/droncon_ws/build/vision_pkg/build install --record /home/cjh/droncon_ws/build/vision_pkg/install.log --single-version-externally-managed install_data
